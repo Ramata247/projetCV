@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramata Aliou Ka — CV Interactif</title>
+
+    <!-- Polices Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ===================== HEADER ===================== -->
+    <header class="header">
+        <div class="header-inner">
+
+            <!-- Bouton hamburger (visible seulement sur mobile) -->
+            <button class="hamburger" id="hamburger" aria-label="Ouvrir le menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Menu de navigation interne -->
+            <nav class="nav" id="nav">
+                <a href="#about" class="nav-link">Profil</a>
+                <a href="#formation" class="nav-link">Formations</a>
+                <a href="#competences" class="nav-link">Compétences</a>
+                <a href="#experiences" class="nav-link">Expériences</a>
+                <a href="#projets" class="nav-link">Projets</a>
+                <a href="#langues" class="nav-link">Langues</a>
+                <a href="#contact" class="nav-link">Contact</a>
+
+                <button id="btn-mode" aria-label="Changer le thème">
+                    <span class="mode-icon">☀</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ===================== HERO / EN-TÊTE PRINCIPAL ===================== -->
+        <section class="hero" id="accueil">
+            <img src="../images/profil.jpg" alt="Photo de profil de Ramata Aliou Ka" class="hero-avatar">
+            <h1 class="hero-name">Ramata Aliou Ka</h1>
+            <p class="hero-role">Étudiante en Licence 2 Informatique — Thiès, Sénégal</p>
+
+            <ul class="hero-contact">
+                <li><a href="mailto:ramatak824@gmail.com">✉ ramatak824@gmail.com</a></li>
+                <li><a href="tel:+221771476536">☎ 77 147 65 36</a></li>
+                <li>⚲ Thiès, Sénégal</li>
+            </ul>
+        </section>
+
+        <!-- ===================== À PROPOS / PROFIL ===================== -->
+        <section class="section" id="about">
+            <h2 class="section-title"><span class="tag">01</span>Profil</h2>
+            <article class="card">
+                <p class="about-text">
+                    Étudiante en Licence 2 Informatique à l'Université Iba Der Thiam de Thiès,
+                    je m'intéresse particulièrement au développement web. Curieuse et appliquée,
+                    j'aime apprendre de nouvelles technologies et les mettre en pratique à travers
+                    des projets concrets, comme cette page que vous consultez actuellement.
+                </p>
+                <ul class="info-list">
+                    <li><span class="info-label">Naissance</span><span>11 juin 2005 — Nabadji Civol</span></li>
+                    <li><span class="info-label">Nationalité</span><span>Sénégalaise</span></li>
+                    <li><span class="info-label">Statut</span><span>Célibataire</span></li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- ===================== FORMATION ===================== -->
+        <section class="section" id="formation">
+            <h2 class="section-title"><span class="tag">02</span>Formations</h2>
+
+            <article class="card timeline-card">
+                <span class="timeline-date">2024 — en cours</span>
+                <h3>Licence en Informatique</h3>
+                <p>Université Iba Der Thiam de Thiès</p>
+            </article>
+
+            <article class="card timeline-card">
+                <span class="timeline-date">2023</span>
+                <h3>Baccalauréat S2</h3>
+                <p>Lycée Nabadji civol</p>
+                <h3>BFEM</h3>
+                <p>CEM Nabadji civol</p>
+                <h3>CFEE</h3>
+                <p>Élémentaire Nabadji civol</p>
+            </article>
+        </section>
+
+        <!-- ===================== COMPÉTENCES ===================== -->
+        <section class="section" id="competences">
+            <h2 class="section-title"><span class="tag">03</span>Compétences</h2>
+
+            <article class="card">
+                <h3 class="card-subtitle">Techniques</h3>
+
+                <ul class="skills-list">
+                    <li class="skill-row">
+                        <span class="skill-name">HTML5 / CSS3 / JavaScript</span>
+                        <div class="skill-bar"><div class="skill-fill" data-level="85"></div></div>
+                    </li>
+                    <li class="skill-row">
+                        <span class="skill-name">C / Python / Java</span>
+                        <div class="skill-bar"><div class="skill-fill" data-level="70"></div></div>
+                    </li>
+                    <li class="skill-row">
+                        <span class="skill-name">PHP / Node.js</span>
+                        <div class="skill-bar"><div class="skill-fill" data-level="60"></div></div>
+                    </li>
+                    <li class="skill-row">
+                        <span class="skill-name">MySQL / SQL</span>
+                        <div class="skill-bar"><div class="skill-fill" data-level="65"></div></div>
+                    </li>
+                    <li class="skill-row">
+                        <span class="skill-name">Git / GitHub</span>
+                        <div class="skill-bar"><div class="skill-fill" data-level="75"></div></div>
+                    </li>
+                </ul>
+
+                <h3 class="card-subtitle">Transversales</h3>
+                <ul class="chip-group">
+                    <li class="chip">Esprit d'équipe</li>
+                    <li class="chip">Créativité</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- ===================== EXPÉRIENCES ===================== -->
+        <section class="section" id="experiences">
+            <h2 class="section-title"><span class="tag">04</span>Expériences Professionnelles</h2>
+
+            <article class="card timeline-card">
+                <span class="timeline-date">20 Avril — 9 mai</span>
+                <h3>Création d'une application web</h3>
+                <p>Université Iba Der Thiam de Thiès</p>
+            </article>
+        </section>
+
+        <!-- ===================== PROJETS ===================== -->
+        <section class="section" id="projets">
+            <h2 class="section-title"><span class="tag">05</span>Projets Réalisés</h2>
+
+            <article class="card project-card">
+                <h3>Application web universitaire</h3>
+                <p>
+                    Conception et développement d'une application web dans le cadre d'un projet
+                    encadré à l'Université Iba Der Thiam de Thiès, sur une période de 20 jours.
+                    Projet réalisé avec les technologies front-end de base (HTML, CSS) et python pour le Back-end
+                </p>
+                <ul class="chip-group">
+                    <li class="chip">HTML</li>
+                    <li class="chip">CSS</li>
+                    <li class="chip">Python</li>
+                </ul>
+            </article>
+
+            <article class="card project-card">
+                <h3>CV interactif</h3>
+                <p>
+                    Page web personnelle présentant mon parcours, mes compétences et mes projets,
+                    développée en Python et html  natif avec mode sombre, animations au scroll et
+                    formulaire de contact validé . Ce projet a été réalisé pour démontrer mes compétences en développement web.
+                </p>
+                <ul class="chip-group">
+                    <li class="chip">HTML5</li>
+                    <li class="chip">CSS3</li>
+                    <li class="chip">Vanilla JS</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- ===================== LANGUES & CENTRES D'INTÉRÊT ===================== -->
+        <section class="section" id="langues">
+            <h2 class="section-title"><span class="tag">06</span>Langues &amp; Centres d'intérêt</h2>
+
+            <article class="card two-col">
+                <div>
+                    <h3 class="card-subtitle">Langues</h3>
+                    <ul class="info-list">
+                        <li><span class="info-label">Français</span><span>Courant</span></li>
+                        <li><span class="info-label">Anglais</span><span>Intermédiaire</span></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="card-subtitle">Centres d'intérêt</h3>
+                    <ul class="chip-group">
+                        <li class="chip">📚 Lecture</li>
+                        <li class="chip">🎵 Musique</li>
+                        <li class="chip">⚽ Sport</li>
+                        <li class="chip">💻 Technologie</li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+
+        <!-- ===================== CONTACT ===================== -->
+        <section class="section" id="contact">
+            <h2 class="section-title"><span class="tag">07</span>Contact</h2>
+
+            <article class="card">
+                <form id="contact-form" class="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="nom">Nom</label>
+                        <input type="text" id="nom" name="nom" placeholder="Votre nom">
+                        <span class="error-message" id="error-nom"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email" name="email" placeholder="vous@exemple.com">
+                        <span class="error-message" id="error-email"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Votre message"></textarea>
+                        <span class="error-message" id="error-message-text"></span>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Envoyer le message</button>
+                    <p class="form-success" id="form-success">Message envoyé avec succès ✓</p>
+                </form>
+            </article>
+        </section>
+
+    </main>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+        <p>© 2026 Ramata Aliou Ka</p>
+        <ul class="footer-links">
+            <li><a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+    </footer>
+
+    <!-- Bouton retour en haut -->
+    <button id="back-to-top" aria-label="Retour en haut">↑</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
